@@ -1,0 +1,25 @@
+{
+  "name": "flask-react-app",
+  "authors": [
+    "Jeevan J <jeevan@exafluence.co.in>"
+  ],
+  "description": "Sample App with ReactJs and Flask",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "react": "^17.0.1",
+    "material-ui": "^4.11.3",
+    "material-design-lite": "^1.3.0",
+    "materialize": "^1.0.0",
+    "bootstrap-material-design": "*"
+  }
+}

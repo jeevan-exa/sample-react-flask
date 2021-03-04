@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Flask React</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+  </head>
+  <body>
+    <div id="react-root"></div>
+    {% block app_content %}
+    
+    {% endblock %}
+    <script src="{{ url_for('static', filename='dist/index.bundle.js') }}"></script>
+  </body>
+</html>
